@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Exercise</title>
+    <style>
+        body {
+            font-family: sans-serif; /* Use a sans-serif font for better readability */
+        }
+
+        /* Exercise 8: Margin */
+        .margin-top {
+            margin-top: 50px; /* Adds 50px of margin to the top */
+            background-color: lightblue;
+            padding: 20px;
+        }
+        .margin-bottom {
+            margin-bottom: 50px; /* Adds 50px of margin to the bottom */
+            background-color: lightpink;
+            padding: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 20px auto; /*Auto margin for horizontal centering*/
+            display: block; /*Makes the button a block element so margin: auto works*/
+        }
+
+        /* Exercise 9: Centering a div */
+        .center-div {
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            border: 2px solid blue;
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Horizontally center content */
+            align-items: center; /* Vertically center content */
+            margin: 50px auto; /* Auto margins for horizontal centering */
+        }
+        body{
+          background-color: black;
+        }
+        .center-div span{
+          font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Styling Exercise</h1>
+
+    <h2>8. Margin:</h2>
+    <div class="margin-top">You have hit the spacebar <strong>0</strong> times.</div>
+    <button class="button">RESTART</button>
+    <div class="margin-bottom"></div>
+
+    <h2>9. Centre the div:</h2>
+    <div class="center-div">
+        <span>Center 😉</span>
+    </div>
+
+</body>
+</html>
